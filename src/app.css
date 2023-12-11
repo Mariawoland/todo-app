@@ -1,0 +1,33 @@
+.modifiedScroll::-webkit-scrollbar {
+    width: 7px;
+}
+
+.modifiedScroll::-webkit-scrollbar-thumb {
+    background: #f4f4f4;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #999;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #eee;
+    border-color: #999;
+}
+
+.todoText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
+}
